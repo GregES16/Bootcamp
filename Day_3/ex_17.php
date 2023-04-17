@@ -1,7 +1,7 @@
 <?php
 
-function array_key(array $a, int $key) {
-    return $a[$key];
+function array_key(array $arr, int $key) {
+    return $arr[$key];
 }
 
 ?>

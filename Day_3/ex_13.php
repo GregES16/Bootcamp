@@ -1,6 +1,6 @@
 <?php
 
-function swap($a = "54", $b = "12") {
+function swap(&$a, &$b) {
     $sw = $a;
     $a = $b;
     $b = $sw;
